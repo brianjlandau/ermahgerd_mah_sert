@@ -20,6 +20,7 @@ require 'web_page_converter'
 class Main < Monk::Glue
   set :app_file, __FILE__
   
+  use Rack::Deflater
   use Rack::ETag
   use Rack::Static, :urls => ["/images", "/js", "/styles", "/favicon.ico"], :root => "public",
     :cache_control => 'public, max-age=86400'
