@@ -23,7 +23,7 @@ GEM
     faker (1.0.1)
       i18n (~> 0.4)
     ffi (1.1.4)
-    i18n (0.6.0)
+    i18n (0.8.0)
     libwebsocket (0.1.5)
       addressable
     mime-types (1.19)
